@@ -112,7 +112,6 @@ namespace _9301_questions
         // return : int
         // example: param: q=[3,5,8], return: 8, after: q=[3,5]
         // note: assume queue is not empty
-        // tip: tricky...
 
         static int RemoveAndReturnLast(Queue<int> q)
         {
@@ -121,20 +120,6 @@ namespace _9301_questions
         }
 
         // 8
-        // RemoveAndReturnLastNoTemp
-        // param : Queue<int>
-        // return : int
-        // example: param: q=[3,5,8], return: 8, after: q=[3,5]
-        // note: assume queue is not empty
-        // note2: CANNOT use temp
-
-        static int RemoveAndReturnLastNoTemp(Queue<int> q)
-        {
-            return 0;
-
-        }
-
-        // 9
         // InsertToSortedQ
         // param : Queue<int> sorted ascending, int
         // return : void
@@ -147,7 +132,7 @@ namespace _9301_questions
 
         }
 
-        // 10
+        // 9
         // Merge2Queues
         // param : Queue<int>, Queue<int>
         // return : Queue<int>
