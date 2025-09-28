@@ -30,7 +30,7 @@ namespace _9301_questions
         // number of elements in Q
         // param : Queue<int>
         // return : int
-        // example: param: [1,2,3], return: 3
+        // example: param: [1,4,8], return: 3
         // note - no need to preserve Q. print Q in main to check it's []
         static int CountQueueModify(Queue<int> q)
         {
